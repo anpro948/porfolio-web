@@ -14,14 +14,14 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+         
+          {props.isBlog ? "Blog" : "More infomation"}
         </Button>
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
+        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  
+	
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -32,7 +32,9 @@ function ProjectCards(props) {
             <CgWebsite /> &nbsp;
             {"Demo"}
           </Button>
+
         )}
+*/}
       </Card.Body>
     </Card>
   );
