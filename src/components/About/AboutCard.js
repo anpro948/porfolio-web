@@ -9,11 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">An </span>.
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
-            <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            <br /> I'm a third-year student majoring in Data Science at University of Information Technology - UIT, Vietnam.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -23,7 +19,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Read books
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -31,9 +27,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "I have no special talent. I am only passionately curious.!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Albert Einstein</footer>
         </blockquote>
       </Card.Body>
     </Card>
