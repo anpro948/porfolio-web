@@ -44,6 +44,17 @@ function Projects() {
             />
           </Col>
 
+	<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://img.freepik.com/premium-photo/city-is-name-city_662214-95170.jpg"
+              isBlog={false}
+              title="Business Analysis on Yelp Dataset"
+              description="In this notebook, I analyzed the characteristics of businesses(top 100) with a high number of reviews, particularly focusing on those with a significant number of 5-star ratings."
+              ghLink="https://www.kaggle.com/code/anhoangvo/business-analysis-on-yelp-dataset"
+              demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+
 
         </Row>
       </Container>
